@@ -1,0 +1,9 @@
+# В репозиторий сайта попадают ТОЛЬКО файлы сайта. Папка bot (и её .env с ключом) — никогда.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/styles.css
+!/script.js
+!/config.js
+!/assets/

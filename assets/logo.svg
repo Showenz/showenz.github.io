@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="512" height="512">
+  <!-- Эмблема «КАТОК»: дорога уходит к горизонту, вокруг — надпись-печать.
+       Подходит для аватарки бота, водяного знака и печати на титульниках. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9a52"/>
+      <stop offset=".55" stop-color="#ff6b1a"/>
+      <stop offset="1" stop-color="#e0520b"/>
+    </linearGradient>
+    <clipPath id="c"><circle cx="60" cy="60" r="31"/></clipPath>
+    <path id="ring" d="M14 60a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/>
+  </defs>
+  <circle cx="60" cy="60" r="59" fill="#0b1530"/>
+  <circle cx="60" cy="60" r="57" fill="none" stroke="#ff6b1a" stroke-width="2.4"/>
+  <circle cx="60" cy="60" r="36" fill="none" stroke="#fff" stroke-opacity=".22"/>
+  <text font-family="Geist, Manrope, Arial, sans-serif" font-size="9.4" font-weight="700" letter-spacing="1.4" fill="#fff">
+    <textPath href="#ring" textLength="284">КАТОК • УЧЕБНЫЕ РАБОТЫ • ПОД КЛЮЧ •</textPath>
+  </text>
+  <circle cx="60" cy="60" r="31" fill="url(#g)"/>
+  <g clip-path="url(#c)">
+    <path d="M26 56q17-11 34-2t34-2v6H26z" fill="#0b1530" opacity=".35"/>
+    <path d="M37 96 55 54h10l18 42z" fill="#0b1530"/>
+    <path d="M60 92V58" stroke="#fff" stroke-width="2.6" stroke-dasharray="5 4"/>
+  </g>
+</svg>
