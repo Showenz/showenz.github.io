@@ -526,6 +526,7 @@ input, select, textarea { font: inherit; }
 .card__meta { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: auto; padding-top: 8px; }
 .card__price { font-size: 13px; color: var(--muted); white-space: nowrap; }
 .card__price b { font-size: 22px; font-weight: 800; color: var(--text); letter-spacing: -.01em; }
+.card__price--deal b { font-size: 14px; font-weight: 700; letter-spacing: .02em; text-transform: uppercase; color: var(--orange); }
 .card__term { display: inline-flex; align-items: center; gap: 6px; font: 500 10.5px var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
 .card__term .ico { width: 13px; height: 13px; }
 .card__btn {
@@ -1059,6 +1060,7 @@ input, select, textarea { font: inherit; }
   .card__info h3 { font-size: 13px; letter-spacing: .02em; }
   .card__info p { font-size: 12.5px; }
   .card__price b { font-size: 18px; }
+  .card__price--deal b { font-size: 12px; }
   .card__price { font-size: 12px; }
   .card__term { font-size: 9.5px; }
   .card__btn { height: 40px; padding: 0 12px; font-size: 10.5px; letter-spacing: .1em; }

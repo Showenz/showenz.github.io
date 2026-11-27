@@ -419,7 +419,7 @@
         '<div class="card__meta">' +
           (+s.price > 0
             ? '<span class="card__price">от <b data-price="' + (+s.price) + '">' + fmt(+s.price) + '</b> ₽</span>'
-            : '<span class="card__price"><b>' + DEAL + '</b></span>') +
+            : '<span class="card__price card__price--deal"><b>' + DEAL + '</b></span>') +
           (s.term ? '<span class="card__term">' + svg('clock') + esc(s.term) + '</span>' : '') +
         '</div>' +
         '<button class="card__btn" type="button" data-order="' + esc(s.id) + '" aria-label="Заказать: ' + esc(s.title) + '">Заказать <span aria-hidden="true">+</span></button>' +
